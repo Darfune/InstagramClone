@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/profileMenuItem"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/friendsMenuItem"
+        android:icon="@drawable/ic_friends"
+        android:title="Following" />
+    <item
+        android:id="@+id/shareMenuItem"
+        android:icon="@drawable/ic_share_photo"
+        android:title="Share" />
+    <item
+        android:id="@+id/chatMenuItem"
+        android:icon="@drawable/ic_chat"
+        android:title="Chat" />
+    <item
+        android:id="@+id/settingsMenuItem"
+        android:icon="@drawable/ic_settings"
+        android:title="Setting" />
+
+    <item
+        android:gravity="bottom"
+        android:id="@+id/logoutMenuItem"
+        android:icon="@drawable/ic_logout"
+        android:title="Log Out" />
+
+</menu>
